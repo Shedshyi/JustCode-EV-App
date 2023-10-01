@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My vehicle"
+        android:textColor="@color/My_vehicle"
+        android:textSize="31.84dp"
+        android:fontFamily="@font/outfitsemibold"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="50dp"
+        android:background="@drawable/shape_rounded_variables"
+        tools:layout_editor_absoluteX="-51dp"
+        tools:layout_editor_absoluteY="75dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Audi e-tron Sportback"
+            android:textColor="@color/netherlands"
+            android:fontFamily="@font/outfitreg"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp"></TextView>
+
+        <ImageView
+            android:layout_width="225dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/audi_e_tron_png_clipart_background_1"
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_round_speed"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="106dp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="26dp"
+            android:src="@drawable/ic_twotone_battery_charging_60"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="61dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="262"
+            android:fontFamily="@font/outfitreg"
+            android:textColor="@color/netherlands"
+            android:textSize="14dp"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="49dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KILOMETRE LEFT"
+            android:textColor="@color/kmleft"
+            android:textSize="9dp"
+            android:fontFamily="@font/poppinslight"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="75dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="35%"
+            android:textColor="@color/netherlands"
+            android:textSize="14dp"
+            android:fontFamily="@font/outfitreg"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="103dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHARGED"
+            android:fontFamily="@font/poppinslight"
+            android:textColor="@color/kmleft"
+            android:textSize="9dp"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="131dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nearby Chargers"
+        android:textColor="@color/My_vehicle"
+        android:fontFamily="@font/outfitsemibold"
+        android:textSize="31.84dp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="306dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Netherlands, Amsterdam"
+        android:textColor="@color/netherlands"
+        android:fontFamily="@font/poppinslight"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_location"
+        android:textColor="@color/changeloc"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppinsreg"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="401dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shape_rounded_variables">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:src="@drawable/rectangle_11"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="13dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="ChargePoint Station 1"
+                    android:fontFamily="@font/outfitreg"
+                    android:textColor="@color/netherlands"
+                    android:textSize="17sp">
+
+                <TextView
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppinslight"
+                    android:text="STREET PULO 25"
+                    android:textColor="@color/netherlands"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/poppinslight"
+                    android:text="Amesterdam, Netherlands"
+                    android:textColor="@color/netherlands"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="8 Ports Available"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:textColor="@color/ports_availible"
+                    android:textSize="14sp"
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shape_rounded_variables">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:src="@drawable/rectangle_8" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/outfitreg"
+                    android:text="ChargePoint Station 2"
+                    android:textColor="@color/netherlands"
+                    android:textSize="17sp">
+
+                <TextView
+                    android:fontFamily="@font/poppinslight"
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="STREET SRNA 74"
+                    android:textColor="@color/netherlands"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/poppinslight"
+                    android:text="Amesterdam, Netherlands"
+                    android:textColor="@color/netherlands"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="2 Ports Available"
+                    android:textColor="@color/yellow_ports"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:textSize="14sp"
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shape_rounded_variables">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:src="@drawable/rectangle_10" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="198dp"
+                    android:fontFamily="@font/outfitreg"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="ChargePoint Station 3"
+                    android:textColor="@color/netherlands"
+                    android:textSize="17sp">
+
+                <TextView
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="STREET ADAS 123 123"
+                    android:fontFamily="@font/poppinslight"
+                    android:textColor="@color/netherlands"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:fontFamily="@font/poppinslight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Amesterdam, Netherlands"
+                    android:textColor="@color/netherlands"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="5 Ports Available"
+                    android:textColor="@color/ports_availible"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppinsmedium"
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
